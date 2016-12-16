@@ -5,6 +5,7 @@ require.config({
 });
 requirejs(['jquery','slide'], function ($, slide) {
 	var slider = new slide.Slide({
-		imgs: ["img/img1.jpg", "img/img2.jpg", "img/img3.jpg", "img/img4.jpg"]
+		imgs: ["img/img1.jpg", "img/img2.jpg", "img/img3.jpg", "img/img4.jpg"],
+		speed: 3000
 	});
 });
